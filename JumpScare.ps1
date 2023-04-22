@@ -40,7 +40,7 @@ iwr https://raw.githubusercontent.com/FernandoWolf/Jumpscare-script/main/Jumpsca
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://files.gamebanana.com/preview/sounds/moan_loop3.mp3?raw=true"
+$wav = "https://github.com/FernandoWolf/Jumpscare-script/raw/main/Jumpscare_sound.mp3"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
