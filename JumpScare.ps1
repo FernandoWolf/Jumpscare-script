@@ -31,12 +31,12 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://preview.redd.it/jhuagqzmn0w81.png?width=474&format=png&auto=webp&v=enabled&s=847bcc24ac6bbdaa801ade11c89dcd3b181b2661"
+$image =  "https://raw.githubusercontent.com/FernandoWolf/Jumpscare-script/main/Jumpscare_img.png"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://preview.redd.it/jhuagqzmn0w81.png?width=474&format=png&auto=webp&v=enabled&s=847bcc24ac6bbdaa801ade11c89dcd3b181b2661?dl=1 -O $env:TMP\i.png
+iwr https://raw.githubusercontent.com/FernandoWolf/Jumpscare-script/main/Jumpscare_img.png?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
